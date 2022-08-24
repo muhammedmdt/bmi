@@ -1,0 +1,155 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: #ffffff;
+    width: 100vw;
+}
+.erkek{
+    background-image:url(men.png);
+}
+.kadin {
+    background-image: url(men.png);
+}
+
+
+.container {
+    background-color:#ffffff;
+    padding: 30px 30px;
+    width: 65%;
+    min-width: 400px;
+    positioN: relative;
+    transform: translate(-50%,-50%);
+    top: 25%;
+    left: 50%;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+}
+
+    .container h1 {
+        background: #000080;
+        color: white;
+        text-align: center;
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        margin-top: -30px;
+        margin-left: -30px;
+        margin-right: -30px;
+        margin-bottom: 40px;
+        padding: 1.5em;
+        border-radius: 0.25em 0.25em 0 0;
+    }
+
+    .row select{
+        position:relative;
+        left:15px;
+        bottom:2px;
+        border-radius:1px;
+    }
+  .row{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    position:relative;
+    left:300px;
+    width:90%;
+}
+ .row p {
+     text-align: right;
+    margin: 15px 30px 15px 60px;
+ }
+.row span{
+    font-weight: 500;
+}
+input[type="range"]{
+    width: 70%;
+    height: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 150px;
+    width: 15px;
+    background-color: #000080;
+    border-radius:0;
+    cursor:  pointer;
+}
+#weight{
+    letter-spacing:1px;
+    border:1px;
+}
+.gender {
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.erkek {
+    background-image: url(men.png);
+}
+
+.kadin {
+    background-image: url(men.png)
+}
+
+.gender input:active + .cinsiyet {
+    opacity: .9;
+}
+
+.gender input:checked + .cinsiyet {
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+}
+
+.cinsiyet {
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 500px;
+    height: 280px;
+    padding: -20px;
+    border: 2px;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+    -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+    filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+
+    .cinsiyet:hover {
+        -webkit-filter: brightness(1.2) grayscale(.9) opacity(.9);
+        -moz-filter: brightness(1.2) grayscale(.9) opacity(.9);
+        filter: brightness(1.2) grayscale(.9) opacity(.9);
+    }
+
+a:visited {
+    color: #888
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: .3em;
+}
+
